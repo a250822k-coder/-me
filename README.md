@@ -3,3 +3,4 @@
 学籍番号：1254810116
 趣味：ゲーム
 出身地：東京
+![screenshot.jpg]images/me.ping
