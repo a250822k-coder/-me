@@ -20,3 +20,4 @@ import matplotlib.pyplot as plt
 ```
 imag = IMage.open(![screenshot](https://github.com/user-attachments/assets/0fbbc8ec-56a6-48e2-ac44-11d4f634e7df)
 )
+```
