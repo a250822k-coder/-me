@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ecb3b59576769a823f878b630fbd9551 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ecb3b59576769a823f878b630fbd9551" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ecb3b59576769a823f878b630fbd9551 = L.map(
+                "map_ecb3b59576769a823f878b630fbd9551",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ac91825d7fda805265e9e85e144c813 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ac91825d7fda805265e9e85e144c813.addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_bc9649245d675a8de12934bd0e78580a = L.circleMarker(
+                [-10.036790492211, -113.97437645276382],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_c4931408bfcc79e4141c2d3d82ff5372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_662c6a0d372fdb60e8ea3f0a5f0dd9b6 = $(`<div id="html_662c6a0d372fdb60e8ea3f0a5f0dd9b6" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プランクトン（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_c4931408bfcc79e4141c2d3d82ff5372.setContent(html_662c6a0d372fdb60e8ea3f0a5f0dd9b6);
+            
+        
+
+        circle_marker_bc9649245d675a8de12934bd0e78580a.bindPopup(popup_c4931408bfcc79e4141c2d3d82ff5372)
+        ;
+
+        
+    
+    
+            var circle_marker_2ccebabb1c17cabcbead0115c83abac2 = L.circleMarker(
+                [36.057144512793286, -70.47279253456642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_19b2c9f63872b3c32b4768b4be5e7f1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_020ce8e443449c021b8981ea0b47be9b = $(`<div id="html_020ce8e443449c021b8981ea0b47be9b" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プランクトン（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_19b2c9f63872b3c32b4768b4be5e7f1d.setContent(html_020ce8e443449c021b8981ea0b47be9b);
+            
+        
+
+        circle_marker_2ccebabb1c17cabcbead0115c83abac2.bindPopup(popup_19b2c9f63872b3c32b4768b4be5e7f1d)
+        ;
+
+        
+    
+    
+            var circle_marker_8f5996df5021e0d579195dc87f41ce9e = L.circleMarker(
+                [18.559515344912406, 8.912315387605616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_6bcffcb740259a0e7b8192b59c9b848e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bd67ef152e7610fc85a8cfe1b93cf98 = $(`<div id="html_7bd67ef152e7610fc85a8cfe1b93cf98" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プラスチック（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_6bcffcb740259a0e7b8192b59c9b848e.setContent(html_7bd67ef152e7610fc85a8cfe1b93cf98);
+            
+        
+
+        circle_marker_8f5996df5021e0d579195dc87f41ce9e.bindPopup(popup_6bcffcb740259a0e7b8192b59c9b848e)
+        ;
+
+        
+    
+    
+            var circle_marker_d29bc60da311df38e30777c8fa7c11bd = L.circleMarker(
+                [7.892678735762928, -24.499793288838333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_3e4c8d55fb7fc01ce9662a3b2b376943 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b068c258f1a3b24f125ccb37396e7d3 = $(`<div id="html_1b068c258f1a3b24f125ccb37396e7d3" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プラスチック（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_3e4c8d55fb7fc01ce9662a3b2b376943.setContent(html_1b068c258f1a3b24f125ccb37396e7d3);
+            
+        
+
+        circle_marker_d29bc60da311df38e30777c8fa7c11bd.bindPopup(popup_3e4c8d55fb7fc01ce9662a3b2b376943)
+        ;
+
+        
+    
+    
+            var circle_marker_1e805cb20e8dbceeed196e67915bebb1 = L.circleMarker(
+                [-27.51850876460508, -75.1575095287049],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_57436127a8124292895eb605d87a7500 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c6f390407f46523771907b968d113ae = $(`<div id="html_0c6f390407f46523771907b968d113ae" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プランクトン（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_57436127a8124292895eb605d87a7500.setContent(html_0c6f390407f46523771907b968d113ae);
+            
+        
+
+        circle_marker_1e805cb20e8dbceeed196e67915bebb1.bindPopup(popup_57436127a8124292895eb605d87a7500)
+        ;
+
+        
+    
+    
+            var circle_marker_a1dcd1747a6c2a6d536dd825384e393b = L.circleMarker(
+                [-27.520438373103786, 40.267042100056614],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_209ccfd38602c8906a0b0574b0f7231f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6672dfd116da42a5a2f9feba1599632 = $(`<div id="html_e6672dfd116da42a5a2f9feba1599632" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_209ccfd38602c8906a0b0574b0f7231f.setContent(html_e6672dfd116da42a5a2f9feba1599632);
+            
+        
+
+        circle_marker_a1dcd1747a6c2a6d536dd825384e393b.bindPopup(popup_209ccfd38602c8906a0b0574b0f7231f)
+        ;
+
+        
+    
+    
+            var circle_marker_affc6b396a86b9fddf800fe1e59fdba6 = L.circleMarker(
+                [-35.35331102654404, -129.78221016526493],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_3d22db49851b7fd2cc8bb2295a4b4d5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d59865b5f080d2d8a5db3ec2237208b7 = $(`<div id="html_d59865b5f080d2d8a5db3ec2237208b7" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プラスチック（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_3d22db49851b7fd2cc8bb2295a4b4d5f.setContent(html_d59865b5f080d2d8a5db3ec2237208b7);
+            
+        
+
+        circle_marker_affc6b396a86b9fddf800fe1e59fdba6.bindPopup(popup_3d22db49851b7fd2cc8bb2295a4b4d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_67d05308dca9fa84c0154ad88066f90b = L.circleMarker(
+                [29.294091661994813, -74.82792652732147],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_03410f054920892ff2131a990ed069f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ebadcadb9f1549c9200980472e592f9 = $(`<div id="html_5ebadcadb9f1549c9200980472e592f9" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_03410f054920892ff2131a990ed069f2.setContent(html_5ebadcadb9f1549c9200980472e592f9);
+            
+        
+
+        circle_marker_67d05308dca9fa84c0154ad88066f90b.bindPopup(popup_03410f054920892ff2131a990ed069f2)
+        ;
+
+        
+    
+    
+            var circle_marker_b72f5d33d786a7a8be31ab53365732c1 = L.circleMarker(
+                [8.089200939456703, -48.109736414271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_7d125d515bf6e6fb49b0cd2354920089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1da149dcbb90c8c4ae7728897f5ba362 = $(`<div id="html_1da149dcbb90c8c4ae7728897f5ba362" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_7d125d515bf6e6fb49b0cd2354920089.setContent(html_1da149dcbb90c8c4ae7728897f5ba362);
+            
+        
+
+        circle_marker_b72f5d33d786a7a8be31ab53365732c1.bindPopup(popup_7d125d515bf6e6fb49b0cd2354920089)
+        ;
+
+        
+    
+    
+            var circle_marker_28e23cfe52eb0f95aa6e9588f8a0a66c = L.circleMarker(
+                [16.645806223683635, -15.814805681867057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_b853fdeef7a61677c6a208af0d223576 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a84bdf411b925077c5c450d946ff8c8 = $(`<div id="html_7a84bdf411b925077c5c450d946ff8c8" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_b853fdeef7a61677c6a208af0d223576.setContent(html_7a84bdf411b925077c5c450d946ff8c8);
+            
+        
+
+        circle_marker_28e23cfe52eb0f95aa6e9588f8a0a66c.bindPopup(popup_b853fdeef7a61677c6a208af0d223576)
+        ;
+
+        
+    
+    
+            var circle_marker_f2c2f5ceee859400f6f699ade138ad6a = L.circleMarker(
+                [-38.353240456335804, 102.66334610148488],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_98f119bc51842e60336e7434f1d2db49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df69f76e82a10c3986e2be5b4d4b0103 = $(`<div id="html_df69f76e82a10c3986e2be5b4d4b0103" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プラスチック（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_98f119bc51842e60336e7434f1d2db49.setContent(html_df69f76e82a10c3986e2be5b4d4b0103);
+            
+        
+
+        circle_marker_f2c2f5ceee859400f6f699ade138ad6a.bindPopup(popup_98f119bc51842e60336e7434f1d2db49)
+        ;
+
+        
+    
+    
+            var circle_marker_182eca85a446b6dac207008957efcc30 = L.circleMarker(
+                [37.592788172959544, -108.11743842299049],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_a982aae2fbce9ec22dce4b383eabd6c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f2e282c06f7798a603ec667c4db8ef1 = $(`<div id="html_5f2e282c06f7798a603ec667c4db8ef1" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_a982aae2fbce9ec22dce4b383eabd6c5.setContent(html_5f2e282c06f7798a603ec667c4db8ef1);
+            
+        
+
+        circle_marker_182eca85a446b6dac207008957efcc30.bindPopup(popup_a982aae2fbce9ec22dce4b383eabd6c5)
+        ;
+
+        
+    
+    
+            var circle_marker_36d7bc61fb1190e78e2cb88e7d0f8d58 = L.circleMarker(
+                [26.595411264033743, 5.124397828900186],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_d35492df8ae9185fb169819aea4ffda5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_255f88205b667d7ca3474e1ef484fc59 = $(`<div id="html_255f88205b667d7ca3474e1ef484fc59" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プラスチック（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_d35492df8ae9185fb169819aea4ffda5.setContent(html_255f88205b667d7ca3474e1ef484fc59);
+            
+        
+
+        circle_marker_36d7bc61fb1190e78e2cb88e7d0f8d58.bindPopup(popup_d35492df8ae9185fb169819aea4ffda5)
+        ;
+
+        
+    
+    
+            var circle_marker_c2446e70c9e6d6cf75b6d25cd9e73de4 = L.circleMarker(
+                [-23.012871145737908, 33.26924479033528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_dfbdbb0890e015efc9f75f70a9b04fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd4edda20e06132d6fab962e52bc632c = $(`<div id="html_dd4edda20e06132d6fab962e52bc632c" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：油（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_dfbdbb0890e015efc9f75f70a9b04fb8.setContent(html_dd4edda20e06132d6fab962e52bc632c);
+            
+        
+
+        circle_marker_c2446e70c9e6d6cf75b6d25cd9e73de4.bindPopup(popup_dfbdbb0890e015efc9f75f70a9b04fb8)
+        ;
+
+        
+    
+    
+            var circle_marker_2b7d73d3ce9359ccbf7862efff648914 = L.circleMarker(
+                [-25.45400262343195, -163.27785142080083],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_968fb98bbaca98bd04bbeea76224fc5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c39dd731c71a8d2487f3554131241e80 = $(`<div id="html_c39dd731c71a8d2487f3554131241e80" style="width: 100.0%; height: 100.0%;">         【現在の海洋ごみ】<br>         種類：プランクトン（分光解析）<br>         解析：衛星分光解析         </div>`)[0];
+                popup_968fb98bbaca98bd04bbeea76224fc5e.setContent(html_c39dd731c71a8d2487f3554131241e80);
+            
+        
+
+        circle_marker_2b7d73d3ce9359ccbf7862efff648914.bindPopup(popup_968fb98bbaca98bd04bbeea76224fc5e)
+        ;
+
+        
+    
+    
+            var circle_marker_db318c24099e4f25ac4bae829be2d7e2 = L.circleMarker(
+                [-8.937209379258253, -111.70165649419961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_a3d69dc4a1e2ae8e9d79d57aa03a081a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdb3bb4674f65c20f16d7690e0456cfe = $(`<div id="html_bdb3bb4674f65c20f16d7690e0456cfe" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_a3d69dc4a1e2ae8e9d79d57aa03a081a.setContent(html_bdb3bb4674f65c20f16d7690e0456cfe);
+            
+        
+
+        circle_marker_db318c24099e4f25ac4bae829be2d7e2.bindPopup(popup_a3d69dc4a1e2ae8e9d79d57aa03a081a)
+        ;
+
+        
+    
+    
+            var poly_line_127e8387aa810aa05464e115966ded26 = L.polyline(
+                [[-10.036790492211, -113.97437645276382], [-8.937209379258253, -111.70165649419961]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_54672ae2c1ecb08b3b86e35daa91c44a = L.circleMarker(
+                [36.717124459489014, -72.20738484650806],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_cc76f997f2263a8c7fa74ecfb7b15001 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01a2d675c5d02cd669e9e8e185e12850 = $(`<div id="html_01a2d675c5d02cd669e9e8e185e12850" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_cc76f997f2263a8c7fa74ecfb7b15001.setContent(html_01a2d675c5d02cd669e9e8e185e12850);
+            
+        
+
+        circle_marker_54672ae2c1ecb08b3b86e35daa91c44a.bindPopup(popup_cc76f997f2263a8c7fa74ecfb7b15001)
+        ;
+
+        
+    
+    
+            var poly_line_88c0e83d093c26172e203b29cd40d651 = L.polyline(
+                [[36.057144512793286, -70.47279253456642], [36.717124459489014, -72.20738484650806]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_7a3c2d34c03ae14139a3edd7da6a2f42 = L.circleMarker(
+                [20.558684815329393, 9.61675513165961],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_f6d90e56bf6f5b0ed7d6586a2caa3d90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4df11ba95fe379a9a18ccc47e9c1128 = $(`<div id="html_e4df11ba95fe379a9a18ccc47e9c1128" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_f6d90e56bf6f5b0ed7d6586a2caa3d90.setContent(html_e4df11ba95fe379a9a18ccc47e9c1128);
+            
+        
+
+        circle_marker_7a3c2d34c03ae14139a3edd7da6a2f42.bindPopup(popup_f6d90e56bf6f5b0ed7d6586a2caa3d90)
+        ;
+
+        
+    
+    
+            var poly_line_79eb4d1abd9881def9738224137f7b2e = L.polyline(
+                [[18.559515344912406, 8.912315387605616], [20.558684815329393, 9.61675513165961]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_7d31f10bbb8499cb31b1f625c9a92a72 = L.circleMarker(
+                [5.93286665680956, -24.291450688580095],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_62ed695e494d81d46900bb6289c1535c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7880f59e894574a9d5f29779054a8d3f = $(`<div id="html_7880f59e894574a9d5f29779054a8d3f" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_62ed695e494d81d46900bb6289c1535c.setContent(html_7880f59e894574a9d5f29779054a8d3f);
+            
+        
+
+        circle_marker_7d31f10bbb8499cb31b1f625c9a92a72.bindPopup(popup_62ed695e494d81d46900bb6289c1535c)
+        ;
+
+        
+    
+    
+            var poly_line_b4c6bf41823f2e15eb3d207284df209f = L.polyline(
+                [[7.892678735762928, -24.499793288838333], [5.93286665680956, -24.291450688580095]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_191a9fb77c83caec6ce44bb844cdd647 = L.circleMarker(
+                [-28.172145119165634, -70.54578928521141],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_24bd15ef675e489662dbac8ff04a1cf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b00b5bbd1d63c2157911d493bb3f921 = $(`<div id="html_9b00b5bbd1d63c2157911d493bb3f921" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_24bd15ef675e489662dbac8ff04a1cf0.setContent(html_9b00b5bbd1d63c2157911d493bb3f921);
+            
+        
+
+        circle_marker_191a9fb77c83caec6ce44bb844cdd647.bindPopup(popup_24bd15ef675e489662dbac8ff04a1cf0)
+        ;
+
+        
+    
+    
+            var poly_line_3ecb693b53b28597b7046ae82aded14e = L.polyline(
+                [[-27.51850876460508, -75.1575095287049], [-28.172145119165634, -70.54578928521141]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_bdba2720cc537c66440d8d9e9495f3a0 = L.circleMarker(
+                [-29.427021846375414, 43.71238058683813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_e4d349744c4bfeab0a279dd38b852cb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eadd0880b32792873d80c8cd7ebc24d = $(`<div id="html_7eadd0880b32792873d80c8cd7ebc24d" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_e4d349744c4bfeab0a279dd38b852cb8.setContent(html_7eadd0880b32792873d80c8cd7ebc24d);
+            
+        
+
+        circle_marker_bdba2720cc537c66440d8d9e9495f3a0.bindPopup(popup_e4d349744c4bfeab0a279dd38b852cb8)
+        ;
+
+        
+    
+    
+            var poly_line_1786ddd4fa6fa6d6023a37d20f0d4cc5 = L.polyline(
+                [[-27.520438373103786, 40.267042100056614], [-29.427021846375414, 43.71238058683813]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_acae7e54b11e2f65e43c524efec4c7a8 = L.circleMarker(
+                [-33.82114256463812, -127.30900906389112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_34d31a77506747bd7691076028224f6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8c9c72141e2e74ab8c8a03069be9506 = $(`<div id="html_d8c9c72141e2e74ab8c8a03069be9506" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_34d31a77506747bd7691076028224f6a.setContent(html_d8c9c72141e2e74ab8c8a03069be9506);
+            
+        
+
+        circle_marker_acae7e54b11e2f65e43c524efec4c7a8.bindPopup(popup_34d31a77506747bd7691076028224f6a)
+        ;
+
+        
+    
+    
+            var poly_line_1fbeb63f481d396c391172a097e75ec4 = L.polyline(
+                [[-35.35331102654404, -129.78221016526493], [-33.82114256463812, -127.30900906389112]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_481e6180167672549e1f0d7dca87edb0 = L.circleMarker(
+                [28.84502690894228, -74.43100520343067],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_28f247d360cba763cf48869f49d4d8c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcfee72851b916c67fc1e47b8fee6067 = $(`<div id="html_dcfee72851b916c67fc1e47b8fee6067" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_28f247d360cba763cf48869f49d4d8c2.setContent(html_dcfee72851b916c67fc1e47b8fee6067);
+            
+        
+
+        circle_marker_481e6180167672549e1f0d7dca87edb0.bindPopup(popup_28f247d360cba763cf48869f49d4d8c2)
+        ;
+
+        
+    
+    
+            var poly_line_3d37786d212b09fcfe45d7dc35bf32bc = L.polyline(
+                [[29.294091661994813, -74.82792652732147], [28.84502690894228, -74.43100520343067]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_6c2d878088cd73f9943e8d4f47394a75 = L.circleMarker(
+                [6.336850916665836, -47.24222475763251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_23c7ec7de6c597d78641152655d2f78e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8277e6db4b0defd9935d2acd4969cba3 = $(`<div id="html_8277e6db4b0defd9935d2acd4969cba3" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_23c7ec7de6c597d78641152655d2f78e.setContent(html_8277e6db4b0defd9935d2acd4969cba3);
+            
+        
+
+        circle_marker_6c2d878088cd73f9943e8d4f47394a75.bindPopup(popup_23c7ec7de6c597d78641152655d2f78e)
+        ;
+
+        
+    
+    
+            var poly_line_7c73857e112c70904c09f8d4df8f1be9 = L.polyline(
+                [[8.089200939456703, -48.109736414271], [6.336850916665836, -47.24222475763251]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_db1bf1aa5e54fa8a6f855f0a6c0f8c45 = L.circleMarker(
+                [17.052008190603583, -11.162252609225677],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_4cfaf0adbadc3f53060e9c70be487660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fc2886fa593d8f443436604505f7de8 = $(`<div id="html_8fc2886fa593d8f443436604505f7de8" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_4cfaf0adbadc3f53060e9c70be487660.setContent(html_8fc2886fa593d8f443436604505f7de8);
+            
+        
+
+        circle_marker_db1bf1aa5e54fa8a6f855f0a6c0f8c45.bindPopup(popup_4cfaf0adbadc3f53060e9c70be487660)
+        ;
+
+        
+    
+    
+            var poly_line_3f87aa169232bbf83ab5e1a0092f43f4 = L.polyline(
+                [[16.645806223683635, -15.814805681867057], [17.052008190603583, -11.162252609225677]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_5d8416e648f3435d16bcce1f6c463be9 = L.circleMarker(
+                [-41.16536070160245, 103.73368857835172],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_26494cb99ded12e130d09557be3416ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48df15fdf32b737b7d0176f9b69cbd68 = $(`<div id="html_48df15fdf32b737b7d0176f9b69cbd68" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_26494cb99ded12e130d09557be3416ea.setContent(html_48df15fdf32b737b7d0176f9b69cbd68);
+            
+        
+
+        circle_marker_5d8416e648f3435d16bcce1f6c463be9.bindPopup(popup_26494cb99ded12e130d09557be3416ea)
+        ;
+
+        
+    
+    
+            var poly_line_031f4863cf4328225dd1b00b521177dc = L.polyline(
+                [[-38.353240456335804, 102.66334610148488], [-41.16536070160245, 103.73368857835172]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_082c4f051e696b91b36f86ce6a49a945 = L.circleMarker(
+                [39.646496820529535, -110.35744660276505],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_f773cc7a337b5e5066d4604bd943f725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54932119ab3cde5e904c3b2e09ea6e2a = $(`<div id="html_54932119ab3cde5e904c3b2e09ea6e2a" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_f773cc7a337b5e5066d4604bd943f725.setContent(html_54932119ab3cde5e904c3b2e09ea6e2a);
+            
+        
+
+        circle_marker_082c4f051e696b91b36f86ce6a49a945.bindPopup(popup_f773cc7a337b5e5066d4604bd943f725)
+        ;
+
+        
+    
+    
+            var poly_line_631adbeddfc0e9cd824ed38d86bd13fd = L.polyline(
+                [[37.592788172959544, -108.11743842299049], [39.646496820529535, -110.35744660276505]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_dc798b14604eb9193396a30bdd96f54d = L.circleMarker(
+                [26.293936064252335, 3.08713288594101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_5e0076325b81fb44f89739d680ecde99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbd703bbd04da0c462854d7d45844c4f = $(`<div id="html_bbd703bbd04da0c462854d7d45844c4f" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_5e0076325b81fb44f89739d680ecde99.setContent(html_bbd703bbd04da0c462854d7d45844c4f);
+            
+        
+
+        circle_marker_dc798b14604eb9193396a30bdd96f54d.bindPopup(popup_5e0076325b81fb44f89739d680ecde99)
+        ;
+
+        
+    
+    
+            var poly_line_66898f5295273f3950685b1598ec3c1e = L.polyline(
+                [[26.595411264033743, 5.124397828900186], [26.293936064252335, 3.08713288594101]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_dc15fe073017748368a6cd333787b0ac = L.circleMarker(
+                [-23.64196972972702, 29.921914180965302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_7eee30230e8b06030306f05f617c7a1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81e8f1926b4fb5a8c664f5738c54e63e = $(`<div id="html_81e8f1926b4fb5a8c664f5738c54e63e" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_7eee30230e8b06030306f05f617c7a1f.setContent(html_81e8f1926b4fb5a8c664f5738c54e63e);
+            
+        
+
+        circle_marker_dc15fe073017748368a6cd333787b0ac.bindPopup(popup_7eee30230e8b06030306f05f617c7a1f)
+        ;
+
+        
+    
+    
+            var poly_line_25cbc3dc006564428982d3bc18c3ff27 = L.polyline(
+                [[-23.012871145737908, 33.26924479033528], [-23.64196972972702, 29.921914180965302]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var circle_marker_ddccc9b98f67836096680b4c99f5c636 = L.circleMarker(
+                [-22.894049428669184, -168.1214873533889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+        var popup_78031a9d225ae71a28da4a1577dec747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55692bae6a3d44d840b7cc7fd713caa6 = $(`<div id="html_55692bae6a3d44d840b7cc7fd713caa6" style="width: 100.0%; height: 100.0%;">         【48時間後の漂着予測】<br>         AI：風・波・海流データ統合         </div>`)[0];
+                popup_78031a9d225ae71a28da4a1577dec747.setContent(html_55692bae6a3d44d840b7cc7fd713caa6);
+            
+        
+
+        circle_marker_ddccc9b98f67836096680b4c99f5c636.bindPopup(popup_78031a9d225ae71a28da4a1577dec747)
+        ;
+
+        
+    
+    
+            var poly_line_2d45fa00a51f547011dc1ed9ff257fcc = L.polyline(
+                [[-25.45400262343195, -163.27785142080083], [-22.894049428669184, -168.1214873533889]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var marker_406abd5b51cc3aa607b75021c76c4674 = L.marker(
+                [5.93286665680956, -24.291450688580095],
+                {
+}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var icon_624cc6a49e3de6641cfa461fc3c69a00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c4610599c325940b3e0e5ef29eb48bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b52d4476764ee333b7c0ae0c25ce973 = $(`<div id="html_7b52d4476764ee333b7c0ae0c25ce973" style="width: 100.0%; height: 100.0%;">         【自律回収ロボット】<br>         ゴミ予報に基づき先回り回収         </div>`)[0];
+                popup_7c4610599c325940b3e0e5ef29eb48bf.setContent(html_7b52d4476764ee333b7c0ae0c25ce973);
+            
+        
+
+        marker_406abd5b51cc3aa607b75021c76c4674.bindPopup(popup_7c4610599c325940b3e0e5ef29eb48bf)
+        ;
+
+        
+    
+    
+                marker_406abd5b51cc3aa607b75021c76c4674.setIcon(icon_624cc6a49e3de6641cfa461fc3c69a00);
+            
+    
+            var marker_50ae74f6dd205a2a8b11d964e9e2a00b = L.marker(
+                [36.717124459489014, -72.20738484650806],
+                {
+}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var icon_b0f0fe26ab620cf6ca513c6ededb223d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f18dd817aa342ae807dc223a4bed0084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17fad6a1d77e8ea3a6c9483cf41d5f4f = $(`<div id="html_17fad6a1d77e8ea3a6c9483cf41d5f4f" style="width: 100.0%; height: 100.0%;">         【自律回収ロボット】<br>         ゴミ予報に基づき先回り回収         </div>`)[0];
+                popup_f18dd817aa342ae807dc223a4bed0084.setContent(html_17fad6a1d77e8ea3a6c9483cf41d5f4f);
+            
+        
+
+        marker_50ae74f6dd205a2a8b11d964e9e2a00b.bindPopup(popup_f18dd817aa342ae807dc223a4bed0084)
+        ;
+
+        
+    
+    
+                marker_50ae74f6dd205a2a8b11d964e9e2a00b.setIcon(icon_b0f0fe26ab620cf6ca513c6ededb223d);
+            
+    
+            var marker_29cc2c14c61aecf72ac11f99d98f3067 = L.marker(
+                [-28.172145119165634, -70.54578928521141],
+                {
+}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var icon_e4a4e8cfef83fa0485b0955435476d1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0091389965d933eed69a386f39c7d4d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf04925f920722ddf9d534c9fad29fbf = $(`<div id="html_cf04925f920722ddf9d534c9fad29fbf" style="width: 100.0%; height: 100.0%;">         【自律回収ロボット】<br>         ゴミ予報に基づき先回り回収         </div>`)[0];
+                popup_0091389965d933eed69a386f39c7d4d4.setContent(html_cf04925f920722ddf9d534c9fad29fbf);
+            
+        
+
+        marker_29cc2c14c61aecf72ac11f99d98f3067.bindPopup(popup_0091389965d933eed69a386f39c7d4d4)
+        ;
+
+        
+    
+    
+                marker_29cc2c14c61aecf72ac11f99d98f3067.setIcon(icon_e4a4e8cfef83fa0485b0955435476d1b);
+            
+    
+            var marker_bf3e87daaa1cd5321ffbf4f372cf2718 = L.marker(
+                [-29.427021846375414, 43.71238058683813],
+                {
+}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var icon_93115fd9c60ec6fea173eb3eefc3a5a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0bd4d35f93940800444b469a64bf1db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80febcf3af50cd8523650da11a2229d6 = $(`<div id="html_80febcf3af50cd8523650da11a2229d6" style="width: 100.0%; height: 100.0%;">         【自律回収ロボット】<br>         ゴミ予報に基づき先回り回収         </div>`)[0];
+                popup_a0bd4d35f93940800444b469a64bf1db.setContent(html_80febcf3af50cd8523650da11a2229d6);
+            
+        
+
+        marker_bf3e87daaa1cd5321ffbf4f372cf2718.bindPopup(popup_a0bd4d35f93940800444b469a64bf1db)
+        ;
+
+        
+    
+    
+                marker_bf3e87daaa1cd5321ffbf4f372cf2718.setIcon(icon_93115fd9c60ec6fea173eb3eefc3a5a7);
+            
+    
+            var marker_db5818b2f0ffa5a27b4e1aebf25b3710 = L.marker(
+                [17.052008190603583, -11.162252609225677],
+                {
+}
+            ).addTo(map_ecb3b59576769a823f878b630fbd9551);
+        
+    
+            var icon_a18e3b550648c8afeda079bba1b2f33f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb71631e3feba948908ba0e83c556794 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89c7f789ae74d645949dc168fe9bebf3 = $(`<div id="html_89c7f789ae74d645949dc168fe9bebf3" style="width: 100.0%; height: 100.0%;">         【自律回収ロボット】<br>         ゴミ予報に基づき先回り回収         </div>`)[0];
+                popup_fb71631e3feba948908ba0e83c556794.setContent(html_89c7f789ae74d645949dc168fe9bebf3);
+            
+        
+
+        marker_db5818b2f0ffa5a27b4e1aebf25b3710.bindPopup(popup_fb71631e3feba948908ba0e83c556794)
+        ;
+
+        
+    
+    
+                marker_db5818b2f0ffa5a27b4e1aebf25b3710.setIcon(icon_a18e3b550648c8afeda079bba1b2f33f);
+            
+</script>
+</html>
